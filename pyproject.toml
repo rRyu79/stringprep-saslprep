@@ -1,0 +1,14 @@
+[project]
+name = "stringprep-saslprep"
+version = "0.1.0"
+description = "Applies the RFC 4013 SASLprep profile of stringprep to normalize and validate authentication strings before protocol transmission."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
