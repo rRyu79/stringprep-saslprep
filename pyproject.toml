@@ -1,6 +1,6 @@
 [project]
 name = "stringprep-saslprep"
-version = "0.1.0"
+version = "0.1.1"
 description = "Applies the RFC 4013 SASLprep profile of stringprep to normalize and validate authentication strings before protocol transmission."
 requires-python = ">=3.10"
 dependencies = []
